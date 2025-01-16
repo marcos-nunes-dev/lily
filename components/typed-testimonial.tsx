@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { Progress } from "@/components/ui/progress"
+import { Progress } from "@/components/progress"
 
 interface TypedTestimonialProps {
   quote: string

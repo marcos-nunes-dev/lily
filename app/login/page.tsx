@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { Github, Mail } from 'lucide-react'
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/button"
 import { Input } from "@/components/ui/input"
 import { Separator } from "@/components/ui/separator"
 import { Globe } from 'lucide-react'

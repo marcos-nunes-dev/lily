@@ -2,7 +2,7 @@ import { SiteHeader } from "@/components/site-header"
 import { SiteFooter } from "@/components/site-footer"
 import { GradientBackground } from "@/components/gradient-background"
 import Image from "next/image"
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/button"
 import Link from "next/link"
 import { ArrowRight, Heart } from 'lucide-react'
 

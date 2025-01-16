@@ -47,6 +47,7 @@ export function AnimatedBackground() {
       }
 
       update() {
+        if (!canvas) return
         if (this.x + this.radius > canvas.width || this.x - this.radius < 0) {
           this.dx = -this.dx
         }
@@ -68,9 +69,10 @@ export function AnimatedBackground() {
     }
 
     function animate() {
-      requestAnimationFrame(animate)
+      if (!canvas || !ctx) return
       ctx.clearRect(0, 0, canvas.width, canvas.height)
       circles.forEach(circle => circle.update())
+      requestAnimationFrame(animate)
     }
 
     animate()

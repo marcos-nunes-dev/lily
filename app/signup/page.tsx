@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
-import { Button } from "@/components/ui/button"
+import { Button } from "@/components/button"
 import { Input } from "@/components/ui/input"
 import { GradientBackground } from '@/components/gradient-background'
 import { TypedTestimonial } from '@/components/typed-testimonial'
